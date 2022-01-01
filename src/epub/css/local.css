@@ -3,16 +3,23 @@
 
 blockquote header{
 	text-align: center;
+	text-indent: 0;
+	font-variant: small-caps;
+	margin-bottom: 0.5em;
+}
+
+#chapter-1 blockquote:nth-of-type(3) p{
 	font-variant: small-caps;
 }
 
 #chapter-3 blockquote:first-of-type p{
 	text-align: center;
+	text-indent: 0;
 	font-variant: small-caps;
 }
 
 #chapter-3 blockquote:first-of-type header p{
-	font-size: 110%;
+	font-size: 1.1em;
 	text-transform: uppercase;
 }
 
@@ -44,3 +51,35 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End all dedications */
+
+/* poetry and verse */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+/* letters */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
