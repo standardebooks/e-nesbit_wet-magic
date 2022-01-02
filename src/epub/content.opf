@@ -41,40 +41,43 @@
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2010101530</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Childrens</meta>
+		<meta property="se:subject">Fantasy</meta>
+		<dc:description id="description">A group of children visiting the seaside free a captive mermaid and visit her domain.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Wet Magic&lt;/i&gt; was the last novel for children published by &lt;a href="https://standardebooks.org/ebooks/e-nesbit"&gt;E. Nesbit&lt;/a&gt;. It was originally serialized in &lt;i&gt;The Strand Magazine&lt;/i&gt; in 1912, with a book version published in 1913.&lt;/p&gt;
+			&lt;p&gt;In the book, four brothers and sisters are on their way to a holiday at the beach. While traveling on a train, they are excited to read about the purported sighting of a mermaid near the coastal town where they will be staying, and agree among themselves to join the hunt for this mythical creature. When they arrive, however, they discover that the mermaid has been captured and put on show at a circus currently open at the local fairground. After the older children encounter another mermaid in the sea, who implores them to help, they agree they must do what they can to free the captured one. This leads on to several strange adventures.&lt;/p&gt;
+			&lt;p&gt;While &lt;i&gt;Wet Magic&lt;/i&gt; has much of Nesbit’s characteristic charm and humor, it doesn’t appear to have been received as well as her other books or been as frequently reprinted.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/50361</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/WetMagic</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/100492999</dc:source>
+		<meta property="se:production-notes">I’ve included the original magazine publication as an additional source of page scans as I don't have proof of the publication date of the book edition, though it shows a copyright date of 1913. The serialization appears in Volumes 44-45 of The Strand Magazine.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-nesbit_wet-magic</meta>
 		<dc:creator id="author">E. Nesbit</dc:creator>
 		<meta property="file-as" refines="#author">Nesbit, E.</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Edith Nesbit</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/E._Nesbit</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n85097242</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Jozef Israëls</dc:contributor>
+		<meta property="file-as" refines="#artist">Israëls, Jozef</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jozef_Israëls</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n90685622</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-2">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://thegriggs.org/david/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
