@@ -51,9 +51,9 @@
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/50361</dc:source>
-		<dc:source>https://archive.org/details/WetMagic</dc:source>
+		<dc:source> https://archive.org/details/wetmagic0000nesb_a6a4</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100492999</dc:source>
-		<meta property="se:production-notes">I’ve included the original magazine publication as an additional source of page scans as I don't have proof of the publication date of the book edition, though it shows a copyright date of 1913. The serialization appears in Volumes 44-45 of The Strand Magazine.</meta>
+		<meta property="se:production-notes">I’ve included the original magazine publication as an additional source of page scans as the book edition was published in 2001. The serialization appears in Volumes 44-45 of The Strand Magazine.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-nesbit_wet-magic</meta>
