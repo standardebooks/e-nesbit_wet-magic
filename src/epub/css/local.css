@@ -1,14 +1,14 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-blockquote header{
+blockquote header p{
 	text-align: center;
 	text-indent: 0;
 	font-variant: small-caps;
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 }
 
-#chapter-1 blockquote:nth-of-type(3) p{
+#chapter-1 blockquote:last-of-type p{
 	font-variant: small-caps;
 }
 
@@ -21,6 +21,12 @@ blockquote header{
 #chapter-3 blockquote:first-of-type header p{
 	font-size: 1.1em;
 	text-transform: uppercase;
+}
+
+#chapter-5 blockquote:first-of-type p{
+	text-align: center;
+	text-indent: 0;
+	font-variant: small-caps;
 }
 
 /* All dedications */
