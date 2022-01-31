@@ -2,10 +2,10 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 blockquote header p{
-	text-align: center;
-	text-indent: 0;
 	font-variant: small-caps;
 	margin-bottom: 1em;
+	text-align: center;
+	text-indent: 0;
 }
 
 #chapter-1 blockquote:last-of-type p{
@@ -13,9 +13,9 @@ blockquote header p{
 }
 
 #chapter-3 blockquote:first-of-type p{
+	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
-	font-variant: small-caps;
 }
 
 #chapter-3 blockquote:first-of-type header p{
@@ -24,9 +24,9 @@ blockquote header p{
 }
 
 #chapter-5 blockquote:first-of-type p{
+	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
-	font-variant: small-caps;
 }
 
 /* All dedications */
