@@ -19,7 +19,7 @@ blockquote header p{
 }
 
 #chapter-3 blockquote:first-of-type header p{
-	font-size: 1.1em;
+	font-size: larger;
 	text-transform: uppercase;
 }
 
