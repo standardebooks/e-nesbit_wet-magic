@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/e-nesbit/wet-magic</dc:identifier>
 		<dc:date>2022-01-05T04:11:13Z</dc:date>
@@ -44,12 +44,12 @@
 		<meta property="term" refines="#subject-4">sh2010101530</meta>
 		<meta property="schema:genre">Children’s</meta>
 		<meta property="schema:genre">Fantasy</meta>
-		<dc:description id="description">A group of children visiting the seaside free a captive mermaid and visit her domain.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A group of children visiting the seaside free a captive mermaid and visit her domain.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Wet Magic&lt;/i&gt; was the last novel for children published by &lt;a href="https://standardebooks.org/ebooks/e-nesbit"&gt;E. Nesbit&lt;/a&gt;. It was originally serialized in &lt;i&gt;The Strand Magazine&lt;/i&gt; in 1912, with a book version published in 1913.&lt;/p&gt;
 			&lt;p&gt;In the book, four brothers and sisters are on their way to a holiday at the beach. While traveling on a train, they’re excited to read about the purported sighting of a mermaid near the coastal town where they’ll be staying, and agree among themselves to join the hunt for this mythical creature. But when they arrive, they discover that the mermaid has been captured and put on show at a circus at the local fairground. After the older children encounter another mermaid in the sea, who implores them to help, they agree they must do what they can to free the captured one. This leads them on to strange adventures.&lt;/p&gt;
 			&lt;p&gt;While &lt;i&gt;Wet Magic&lt;/i&gt; has much of Nesbit’s characteristic charm and humor, it doesn’t appear to have been received as well as her other books, nor has it been as frequently reprinted.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/50361</dc:source>
 		<dc:source>https://archive.org/details/wetmagic0000nesb_a6a4</dc:source>
