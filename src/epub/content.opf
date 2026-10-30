@@ -68,7 +68,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">Jozef Israëls</dc:contributor>
 		<meta property="file-as" refines="#artist">Israëls, Jozef</meta>
-		<link href="https://en.wikipedia.org/wiki/Jozef_Israëls" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Jozef_Isra%C3%ABls" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n90685622.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
